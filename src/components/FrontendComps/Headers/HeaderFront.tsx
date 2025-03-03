@@ -1,3 +1,4 @@
+import ThemeToggleButton from "@/components/ui/ThemeToggleButton";
 import Link from "next/link";
 
 const HeaderFront = () => {
@@ -20,6 +21,8 @@ const HeaderFront = () => {
             <Link href={"/"}>About</Link>
 
             <Link href={"/"}>Contact</Link>
+
+            <ThemeToggleButton />
           </nav>
         </div>
       </header>
