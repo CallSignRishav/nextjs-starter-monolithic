@@ -3,13 +3,11 @@ import { LayoutProps } from "@/lib/types";
 
 const StudioLayout = ({ children }: LayoutProps) => {
   return (
-    <html lang="en">
-      <body>
-        <HeaderStudio />
+    <>
+      <HeaderStudio />
 
-        <main className="container mx-auto px-6">{children}</main>
-      </body>
-    </html>
+      <main className="container mx-auto px-6">{children}</main>
+    </>
   );
 };
 

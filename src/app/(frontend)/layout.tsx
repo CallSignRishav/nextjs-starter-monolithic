@@ -3,13 +3,11 @@ import { LayoutProps } from "@/lib/types";
 
 const FrontendLayout = ({ children }: LayoutProps) => {
   return (
-    <html lang="en">
-      <body>
-        <HeaderFront />
+    <>
+      <HeaderFront />
 
-        <main className="container mx-auto px-6">{children}</main>
-      </body>
-    </html>
+      <main className="container mx-auto px-6">{children}</main>
+    </>
   );
 };
 

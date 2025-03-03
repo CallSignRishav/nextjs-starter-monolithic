@@ -17,9 +17,9 @@ const HeaderFront = () => {
           <nav className="grid grid-flow-col-dense gap-4">
             <Link href={"/"}>Home</Link>
 
-            <Link href={"/"}>About Us</Link>
+            <Link href={"/"}>About</Link>
 
-            <Link href={"/"}>Contact Us</Link>
+            <Link href={"/"}>Contact</Link>
           </nav>
         </div>
       </header>
